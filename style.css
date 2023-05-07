@@ -1,0 +1,42 @@
+body {
+    background-color: #0c1722;
+}
+
+header {
+    text-align: center;
+    color: aliceblue;
+}
+
+header hr {
+    width: 400px;
+}
+
+.container {
+    width: 460px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 3rem auto 0 auto;
+}
+
+.square {
+    width: 120px;   
+    height: 120px;
+    margin-bottom: 24px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button {
+    border: 1px solid #7de5fc;
+    background-color: transparent;
+    color: #7de5fc;
+    width: 120px;
+    padding: 10px 0px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.reset_button {
+    text-align: center;
+}
